@@ -16,12 +16,12 @@ Voor verwerking van beeld "B" uit een reeks A, B, C, D,...
 2) Mediaansom uit (1) aftrekken van beeld B
 3) Gamma van beeld uit (2) aftrekken van beeld B
 
-## Example 
+## Example ( Example data from Bart Declercq )
 
  <table>
   <tr>
     <th>Original recorded data (11 frames)</th>
-    <th>After applying the above alogrithm</th>
+    <th>After applying the above algorithm</th>
   </tr>
   <tr>
     <td><img src="testdata/52261037249_fc554da70e_o.gif"  width="400" height="400" /></td>
