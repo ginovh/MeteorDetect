@@ -16,7 +16,7 @@ Voor verwerking van beeld "B" uit een reeks A, B, C, D,...
 2) Mediaansom uit (1) aftrekken van beeld B
 3) Gamma van beeld uit (2) aftrekken van beeld B
 
-## Example ( Example data from Bart Declercq )
+## Example ( data from Bart Declercq )
 
  <table>
   <tr>
