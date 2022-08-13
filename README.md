@@ -25,7 +25,7 @@ Voor verwerking van beeld "B" uit een reeks A, B, C, D,...
   </tr>
   <tr>
     <td><img src="testdata/52261037249_fc554da70e_o.gif"  width="400" height="400" /></td>
-    <td><img src="testdata/52259782297_39a5f8e20d_o.gif"  width="400" height="400" /><</td>
+    <td><img src="testdata/52259782297_39a5f8e20d_o.gif"  width="400" height="400" /></td>
   </tr>
 </table> 
 
