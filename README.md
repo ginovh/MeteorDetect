@@ -14,27 +14,26 @@ Voor verwerking van beeld "B" uit een reeks A, B, C, D,...
 2) Mediaansom uit (1) aftrekken van beeld B
 3) Gamma van beeld uit (2) aftrekken van beeld B
 
-## Usage (also in Dutch for now):
+## Usage :
 
-Stappen om te reproduceren:
-1. Python virtual env opzetten en activeren
+1. Setup and activate Python virtual env
 ```
 python3 -m venv meteoor_env/
 source meteoor_env/bin activate
 ```
-2. Nodige packages instaleren
+2. Install required packages
 ```
 pip install numpy opencv-python
 ```
-3. Extract png's van Bart's gif
+3. Extract png's from Bart's gif (this was only needed for me to get testdata, skip if you have frames already)
 ```
 convert -coalesce 52261037249_fc554da70e_o.gif out%05d.png
 ```
-4. Process aparte frames
+4. Process frames
 ```
 python median_parallel.py out*.png
 ```
-5. Maak gif van processed frames
+5. (Optional) Create animated gif from processed frames
 ```
 convert -delay 0 -loop 0 out_median*.png proc.gif
 ```
