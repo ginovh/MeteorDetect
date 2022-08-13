@@ -2,6 +2,8 @@
 
 (WORK IN PROGRESS!!)
 
+## Intro
+
 Algorithm idea to improve meteor detection comes from from Bart Declercq.
 This is a simple python version of this algo.
 
@@ -13,6 +15,14 @@ Voor verwerking van beeld "B" uit een reeks A, B, C, D,...
 1) Mediaansom van A+B+C
 2) Mediaansom uit (1) aftrekken van beeld B
 3) Gamma van beeld uit (2) aftrekken van beeld B
+
+## Example 
+
+Original recorded data (11 frames):
+![Original](https://live.staticflickr.com/65535/52261037249_fc554da70e_o.gif)
+
+After applying the above alogrithm:
+![After](https://live.staticflickr.com/65535/52259782297_39a5f8e20d_o.gif)
 
 ## Usage :
 
