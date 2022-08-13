@@ -15,15 +15,27 @@ Voor verwerking van beeld "B" uit een reeks A, B, C, D,...
 3) Gamma van beeld uit (2) aftrekken van beeld B
 
 ## Usage (also in Dutch for now):
+
 Stappen om te reproduceren:
 1. Python virtual env opzetten en activeren
+```
 python3 -m venv meteoor_env/
 source meteoor_env/bin activate
+```
 2. Nodige packages instaleren
+```
 pip install numpy opencv-python
+```
 3. Extract png's van Bart's gif
+```
 convert -coalesce 52261037249_fc554da70e_o.gif out%05d.png
+```
 4. Process aparte frames
+```
 python median_parallel.py out*.png
+```
 5. Maak gif van processed frames
+```
 convert -delay 0 -loop 0 out_median*.png proc.gif
+```
+
