@@ -18,13 +18,16 @@ Voor verwerking van beeld "B" uit een reeks A, B, C, D,...
 
 ## Example 
 
-Original recorded data (11 frames):
-
-![Originals](https://live.staticflickr.com/65535/52261037249_fc554da70e_o.gif)
-
-After applying the above alogrithm:
-
-![After processing](https://live.staticflickr.com/65535/52259782297_39a5f8e20d_o.gif)
+ <table>
+  <tr>
+    <th>Original recorded data (11 frames)</th>
+    <th>After applying the above alogrithm</th>
+  </tr>
+  <tr>
+    <td><img src="testdata/52261037249_fc554da70e_o.gif"  width="400" height="400" /></td>
+    <td><img src="testdata/52259782297_39a5f8e20d_o.gif"  width="400" height="400" /><</td>
+  </tr>
+</table> 
 
 ## Usage :
 
