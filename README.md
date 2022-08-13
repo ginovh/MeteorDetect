@@ -19,10 +19,12 @@ Voor verwerking van beeld "B" uit een reeks A, B, C, D,...
 ## Example 
 
 Original recorded data (11 frames):
-![Original](https://live.staticflickr.com/65535/52261037249_fc554da70e_o.gif)
+
+![Originals](https://live.staticflickr.com/65535/52261037249_fc554da70e_o.gif)
 
 After applying the above alogrithm:
-![After](https://live.staticflickr.com/65535/52259782297_39a5f8e20d_o.gif)
+
+![After processing](https://live.staticflickr.com/65535/52259782297_39a5f8e20d_o.gif)
 
 ## Usage :
 
